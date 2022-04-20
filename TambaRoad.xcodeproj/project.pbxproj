@@ -13,9 +13,15 @@
 		7A1FF0542810417700678633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1FF0522810417700678633 /* Main.storyboard */; };
 		7A1FF0562810417900678633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1FF0552810417900678633 /* Assets.xcassets */; };
 		7A1FF0592810417900678633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1FF0572810417900678633 /* LaunchScreen.storyboard */; };
+		7A1FF0612810426800678633 /* MakeReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1FF0602810426700678633 /* MakeReportViewController.swift */; };
+		7A1FF0632810428500678633 /* ViewReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1FF0622810428500678633 /* ViewReportViewController.swift */; };
+		7A1FF0652810429A00678633 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1FF0642810429A00678633 /* SettingsViewController.swift */; };
+		9965140474741B44A358014A /* Pods_TambaRoad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CA3ADB9F5BF00DB846251 /* Pods_TambaRoad.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02F30E9A9D7EBAE4BD17BF75 /* Pods-TambaRoad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TambaRoad.release.xcconfig"; path = "Target Support Files/Pods-TambaRoad/Pods-TambaRoad.release.xcconfig"; sourceTree = "<group>"; };
+		5EC7803C06A47A70B364498D /* Pods-TambaRoad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TambaRoad.debug.xcconfig"; path = "Target Support Files/Pods-TambaRoad/Pods-TambaRoad.debug.xcconfig"; sourceTree = "<group>"; };
 		7A1FF0492810417700678633 /* TambaRoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TambaRoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1FF04C2810417700678633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A1FF04E2810417700678633 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		7A1FF0552810417900678633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A1FF0582810417900678633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A1FF05A2810417900678633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1FF0602810426700678633 /* MakeReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeReportViewController.swift; sourceTree = "<group>"; };
+		7A1FF0622810428500678633 /* ViewReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReportViewController.swift; sourceTree = "<group>"; };
+		7A1FF0642810429A00678633 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8B9CA3ADB9F5BF00DB846251 /* Pods_TambaRoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TambaRoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9965140474741B44A358014A /* Pods_TambaRoad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49F96A316CAEB406083C5A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EC7803C06A47A70B364498D /* Pods-TambaRoad.debug.xcconfig */,
+				02F30E9A9D7EBAE4BD17BF75 /* Pods-TambaRoad.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7A1FF0402810417700678633 = {
 			isa = PBXGroup;
 			children = (
 				7A1FF04B2810417700678633 /* TambaRoad */,
 				7A1FF04A2810417700678633 /* Products */,
+				49F96A316CAEB406083C5A75 /* Pods */,
+				914552B1480B82A77EF62B13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +82,23 @@
 				7A1FF04C2810417700678633 /* AppDelegate.swift */,
 				7A1FF04E2810417700678633 /* SceneDelegate.swift */,
 				7A1FF0502810417700678633 /* ViewController.swift */,
+				7A1FF0602810426700678633 /* MakeReportViewController.swift */,
+				7A1FF0622810428500678633 /* ViewReportViewController.swift */,
+				7A1FF0642810429A00678633 /* SettingsViewController.swift */,
 				7A1FF0522810417700678633 /* Main.storyboard */,
 				7A1FF0552810417900678633 /* Assets.xcassets */,
 				7A1FF0572810417900678633 /* LaunchScreen.storyboard */,
 				7A1FF05A2810417900678633 /* Info.plist */,
 			);
 			path = TambaRoad;
+			sourceTree = "<group>";
+		};
+		914552B1480B82A77EF62B13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9CA3ADB9F5BF00DB846251 /* Pods_TambaRoad.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A1FF05D2810417900678633 /* Build configuration list for PBXNativeTarget "TambaRoad" */;
 			buildPhases = (
+				B777C88A8431A80C6ABED47E /* [CP] Check Pods Manifest.lock */,
 				7A1FF0452810417700678633 /* Sources */,
 				7A1FF0462810417700678633 /* Frameworks */,
 				7A1FF0472810417700678633 /* Resources */,
+				A93FC59830CA474A245FA79A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +169,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A93FC59830CA474A245FA79A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TambaRoad/Pods-TambaRoad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TambaRoad/Pods-TambaRoad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TambaRoad/Pods-TambaRoad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B777C88A8431A80C6ABED47E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TambaRoad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A1FF0452810417700678633 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +218,10 @@
 			files = (
 				7A1FF0512810417700678633 /* ViewController.swift in Sources */,
 				7A1FF04D2810417700678633 /* AppDelegate.swift in Sources */,
+				7A1FF0612810426800678633 /* MakeReportViewController.swift in Sources */,
+				7A1FF0632810428500678633 /* ViewReportViewController.swift in Sources */,
 				7A1FF04F2810417700678633 /* SceneDelegate.swift in Sources */,
+				7A1FF0652810429A00678633 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +363,7 @@
 		};
 		7A1FF05E2810417900678633 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC7803C06A47A70B364498D /* Pods-TambaRoad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +375,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +393,7 @@
 		};
 		7A1FF05F2810417900678633 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F30E9A9D7EBAE4BD17BF75 /* Pods-TambaRoad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +405,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

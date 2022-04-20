@@ -1,0 +1,18 @@
+//
+//  SettingsViewController.swift
+//  TambaRoad
+//
+//  Created by Meebelo B. B. Munalula on 20/04/2022.
+//
+
+import UIKit
+
+class SettingsViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        
+    }
+
+}
