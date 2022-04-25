@@ -3,8 +3,8 @@ workflows:
     name: TambaRoad
     scripts:
         - name: CICD Started
-            script: echo "CICD"
+          script: echo "CICD"
     publishing:
-        email:
+       email:
         recipients:
         - belomunalula@gmail.com
