@@ -1,0 +1,10 @@
+workflows:
+  tambaroad-world:
+    name: TambaRoad
+    scripts:
+        - name: CICD Started
+            script: echo "CICD"
+    publishing:
+        email:
+        recipients:
+        - belomunalula@gmail.com
