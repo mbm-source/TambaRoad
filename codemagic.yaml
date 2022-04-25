@@ -4,7 +4,9 @@ workflows:
     scripts:
         - name: CICD Started
           script: echo "CICD"
+        - name: Build TambaRoad
+          script: - xcodebuild build -workspace "TambaRoad.xcworkspace" -scheme "TambaRoad" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     publishing:
-       email:
+      email:
         recipients:
         - belomunalula@gmail.com
